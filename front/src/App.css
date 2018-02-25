@@ -44,3 +44,13 @@ li {
   border-radius: 5px;
   margin-bottom:5px;
 }
+
+.tweet-container{
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.tweet{
+	cursor:default !important;
+}

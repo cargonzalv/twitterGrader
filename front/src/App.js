@@ -75,10 +75,12 @@ class App extends Component {
         console.log(tweet)
         return (
           <li className = "col-md-4" key = {i}>
+            <div className = "tweet-container">
             <Tweet data={tweet} linkProps={linkProps} />
             <Button handleClick={()=> this.handleClick(tweet.user.screen_name,0)} buttonStyle={button1Style} label="0"/>
             <Button handleClick={()=> this.handleClick(tweet.user.screen_name,1)} buttonStyle={button2Style} label="+1"/>
             <Button handleClick={()=> this.handleClick(tweet.user.screen_name,2)} buttonStyle={button3Style} label="+2"/>
+            </div>
 
 
           </li>
