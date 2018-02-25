@@ -1,0 +1,46 @@
+.App {
+	text-align: center;
+}
+.App h1{
+	color:white;
+}
+
+body{
+	background-color: #222;
+}
+.App-header {
+	padding: 20px;
+	color: grey;
+}
+
+h6, h4{
+	margin:0;
+}
+select{
+	margin:5px 0px 1px 0px
+}
+div.click-to-top span {display: none; position: absolute; bottom: 0; left: 0; right: 0; background: #333; color: #fff; }
+div.click-to-top:hover span {display: block; }
+
+.App-intro {
+	font-size: large;
+}
+.SearchBox{
+	padding-bottom: 5px;
+}
+
+
+.lists{
+	list-style: none;
+}
+
+
+.opciones{
+	display:inline-block;
+}
+
+li {
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 5px;
+  margin-bottom:5px;
+}
